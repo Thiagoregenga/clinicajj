@@ -11,8 +11,8 @@ class CustomUser(models.Model):
 
     def save(self, *args, **kwargs):
         # If the password isn't hashed, hash it
-        if not self.password.startswith(('pbkdf2_sha256$', 'bcrypt')):
-            self.password = make_password(self.password)
+        # if not self.password.startswith(('pbkdf2_sha256$', 'bcrypt')):
+        #     self.password = make_password(self.password)
         super(CustomUser, self).save(*args, **kwargs)
 
     def check_password(self, raw_password):
