@@ -32,7 +32,7 @@ function RegisterSection() {
     
             if (response.ok) {
                 alert("Cadastro realizado com sucesso!");
-                window.location.href = "/";
+                window.location.href = "/Login";
             } else {
                 console.error("Registration error:", data.message);
                 alert(data.message);  // Display the error message from backend
@@ -126,5 +126,5 @@ function RegisterSection() {
     );
 }
 
-export default RegisterSection;
+export default RegisterSection; 
 
