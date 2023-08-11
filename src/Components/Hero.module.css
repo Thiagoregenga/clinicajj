@@ -1,0 +1,36 @@
+
+.hero {
+    background-image: url('../FOTOS/mulher.jpeg');
+    background-size: initial;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+    height: 50vh;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.heroText_h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.heroText_p {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.B1 {
+    background-color:#295975;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.B1_hover {
+    background-color: white;
+}

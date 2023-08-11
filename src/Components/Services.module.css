@@ -1,0 +1,35 @@
+.terceiraSecao {
+    text-align: center;
+    margin-top: 120px; 
+}
+
+.terceiraSecao_h2 {
+    font-size: 64px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.terceiraSecao_p {
+    font-size: 28px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.l2 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+.l2_li {
+    font-size: 28px;
+    margin: 0;
+    padding: 10px;
+    color: grey;
+}

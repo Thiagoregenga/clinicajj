@@ -1,0 +1,40 @@
+.procedures {
+    margin: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    background-color: white;
+}
+
+.procedures {
+    font-size: 40px; /* Tamanho maior para o título principal */
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 600; /* Mais destaque para o título */
+}
+
+.procedureCard {
+    background-color: #f7f9fc;
+    margin-bottom: 3rem; /* Espaçamento maior entre as boxes */
+    padding: 3rem; /* Espaçamento interno maior */
+    border-radius: 12px; /* Bordas mais arredondadas */
+    border: 1px solid #E0E0E0; /* Borda sutil */
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05); /* Sombra mais suave e dispersa */
+    width: 85%; /* Ajustando a largura para maior centralização */
+    max-width: 900px; /* Largura máxima */
+    text-align: center; /* Centraliza o conteúdo do card */
+}
+
+.procedureCard h3 {
+    margin: 0;
+    margin-bottom: 1.5rem;
+    font-weight: 600; /* Título mais bold */
+    font-size: 1.5rem; /* Tamanho maior para os títulos dos cards */
+}
+
+.procedureCard p {
+    margin-top: 1rem;
+    color: #555;
+    font-size: 1.1rem; 
+    line-height: 1.6;
+}

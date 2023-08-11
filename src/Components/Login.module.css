@@ -1,0 +1,69 @@
+.loginSection {
+    position: relative; /* Essencial para posicionar o pseudo-elemento ::before corretamente */
+    margin: 10px auto;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    padding: 30px; 
+    border: 1px solid #ccc;
+    margin-bottom: 80px;
+}
+
+.loginSection::before {
+    content: ""; /* Pseudo-elementos precisam dessa propriedade */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f4f4f4; /* Cor de fundo cinza */
+    z-index: -1; /* Coloca o retângulo atrás do conteúdo */
+}
+
+.loginSection_h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 40px;
+}
+
+/* Estilos dos botões na Seção de Login */
+.loginSectionButton {
+    background-color: #295975;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.loginSectionButtonHover {
+    background-color: #1f4563;
+}
+
+/* Estilos dos campos de input na Seção de Login */
+.loginSectionInput {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+/* Estilos do formulário na Seção de Login */
+.loginSectionForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Estilos das labels na Seção de Login */
+.loginSectionLabel {
+    width: 48%;
+    text-align: left;
+    display: block;
+    margin-bottom: 20px;
+}

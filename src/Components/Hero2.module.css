@@ -1,0 +1,21 @@
+.hero {
+    background-image: url('../FOTOS/mulher.jpeg');
+    background-size: initial;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+    height: 50vh;
+}
+
+.heroText_h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.heroText_p {
+    font-size: 30px;
+    margin-bottom: 30px;
+}

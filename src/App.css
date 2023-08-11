@@ -1,6 +1,13 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', sans-serif !important;
+}
 .App {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
+
+
+
 
 .App-logo {
   height: 40vmin;

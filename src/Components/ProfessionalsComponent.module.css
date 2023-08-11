@@ -1,0 +1,51 @@
+.professionals {
+    text-align: left;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;  /* Flex para centralizar os cards */
+    justify-content: center;  /* Centraliza os cards horizontalmente */
+    flex-wrap: wrap;  /* Permite que os cards se ajustem à próxima linha se necessário */
+}
+
+.professionals_h2 {
+    font-size: 44px;
+    margin-bottom: 1rem;
+    width: 100%;  
+    order: -1; 
+    text-align: center;
+}
+
+.professionals_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f7f9fc;
+    margin: 1rem;  /* Margem ajustada para dar espaço em todos os lados do card */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 55%; /* Largura um pouco maior para os cards */
+    min-height: 320px; /* Ajuste na altura mínima para acomodar a imagem maior */
+}
+
+.professionals_image {
+    width: 250px;  /* Aumento do tamanho da foto */
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 2rem;
+    border: 2px solid #e1e7ed;
+    transition: border-color 0.2s;
+
+    &:hover {
+        border-color: #667788;
+    }
+}
+
+.professionals_description p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    max-width: 550px;  /* Largura máxima ajustada para acomodar mais texto ao lado da imagem maior */
+}   

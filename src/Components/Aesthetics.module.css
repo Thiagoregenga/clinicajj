@@ -1,0 +1,26 @@
+.Estética {
+    text-align: center;
+    margin-top: 80px;
+    body {
+        font-family: 'Montserrat', sans-serif !important;
+    }
+    
+}
+
+.Estética_h2 {
+    font-size:44px;
+    margin-bottom: 80px;
+    color: black;
+    margin-top: 120px;
+}
+
+.Estética_p {
+    text-align: justify;
+    line-height: 1.4;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 80px;
+    color: gray;
+}

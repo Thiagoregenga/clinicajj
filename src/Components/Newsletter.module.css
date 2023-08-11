@@ -1,0 +1,31 @@
+.quartaSecao {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 150px; 
+    box-sizing: border-box; 
+}
+
+.quartaSecao_h2 {
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.quartaSecao_p {
+    font-size: 16px;
+    font-weight: 400;
+    color: grey;
+    margin-top: 10px;
+}
+
+.quartaSecao_button {
+    background-color: #295975;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+}
+
+.quartaSecao_input {
+    padding: 10px 80px;
+}
