@@ -22,7 +22,7 @@ function LoginSection() {
     
             if (response.ok) {
                 console.log(data.message);
-                window.location.href = "";  // Redirect to YouTube
+                window.location.href = "/Calendar";  // Redirect to YouTube
             } else {
                 console.error("Erro no login:", data.message);
                 alert(data.message);  // Display the error message from backend

@@ -8,6 +8,7 @@ import AboutusPage from './Pages/AboutusPage';
 import LoginPage from './Pages/LoginPage';
 import ServPage from './Pages/ServicoPage';
 import CadastroPage from './Pages/CadastroPage';
+import CalendarPage from './Pages/CalendarPage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/login" element ={<LoginPage/>}></Route>
         <Route path="/servico" element ={<ServPage/>}></Route>
         <Route path="/Cadastro" element ={<CadastroPage/>}></Route>
+        <Route path="/Calendar" element ={<CalendarPage/>}></Route>
       </Routes>
     </Router>
   );
